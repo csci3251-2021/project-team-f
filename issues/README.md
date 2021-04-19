@@ -27,4 +27,11 @@
 # Code
 
 # Contributors
-
+{% for stu in site.stu %}    
+   ![Image of Contributors]({{stu.image}})
+   <a href="{{stu.url}}">
+     @{{ stu.username }}
+   </a>
+   ({{ stu.name }})
+ <p>{{ stu.content | markdownify }}</p>
+{% endfor %}
