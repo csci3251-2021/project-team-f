@@ -28,10 +28,10 @@
 
 # Contributors
 {% for stu in site.stu %}    
-   -![Image of Contributors]({{stu.image}} =50x50)
-   <a href="github.com/{{stu.user}}">
-     @{{stu.user}}
-   </a>
-   ({{ stu.name }})
- -<p>{{ stu.content | markdownify }}</p>
+- ![Image of Contributors]({{stu.image}} =50x50)
+<a href="github.com/{{stu.user}}">
+@{{stu.user}}
+</a>
+({{ stu.name }})
+  - <p>{{ stu.content | markdownify }}</p>
 {% endfor %}
