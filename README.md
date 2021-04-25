@@ -5,7 +5,7 @@
   * Create project board, so members can see which tasks is not completed, in progress and completed
 - [x] Task 3
   * Create readme.md about all the issues containing brief description of each task
-- [ ] Task 4
+- [x] Task 4
   * Edit the readme.md (on the contributor section)
   * Arrange the contents into the format specified in task 4
 - [ ] Task 5
@@ -28,10 +28,10 @@
 
 # Contributors
 {% for stu in site.stu %}    
-   ![Image of Contributors]({{stu.image}})
-   <a href="{{stu.url}}">
-     @{{ stu.username }}
-   </a>
-   ({{ stu.name }})
- <p>{{ stu.content | markdownify }}</p>
+- ![Image of Contributors]({{stu.image}} =50x50)
+<a href="github.com/{{stu.user}}">
+@{{stu.user}}
+</a>
+({{ stu.name }})
+  - <p>{{ stu.content | markdownify }}</p>
 {% endfor %}
