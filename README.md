@@ -12,10 +12,10 @@
   * Check whether the issues are labelle
   * Check if pull request is in proper columns
   * Remind people to include .md file in the __stu folder and their "hello" card in the project board
-- [ ] Task 6
+- [x] Task 6
   * In code.c, write a simple C code
   * Set up a github action with a workflow to run the c code
-- [ ] Task 7
+- [x] Task 7
   * Edit the readme.md (on the code section) and include the code from *`code.c`* (task 6) using `include_relative`
   * Highlight the code using C syntax 
   * Earn a workflow status badge for the code
