@@ -25,9 +25,11 @@
   * Request review from @chuckjee
 
 # Code
+![](https://github.com/csci3251-2021/project-team-f/workflows/C/C++CI/badge.svg)
+```c
 {% include_relative code.c %}
+```
 
-![](https://github.com/csci3251-2020/project-team-f/workflows/C/C++CI/badge.svg)
 
 # Contributors
 {% for stu in site.stu %}    
