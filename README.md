@@ -39,6 +39,6 @@
 </a>
 ({{ stu.name }})
   - {{ stu.content | markdownify }}
-{% endfor %} <br \><br \><br \>
+{% endfor %}
 
-Last Updated Time: {{ site.time | date: "%Y" }}
+Last Updated Time: {{ "now" | date: "%Y-%m-%d %H:%M" }}
